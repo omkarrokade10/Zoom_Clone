@@ -17,14 +17,11 @@ import { Snackbar } from '@mui/material';
 
 
 
-// TODO remove, this demo shouldn't need to reset the theme.
+
 
 const defaultTheme = createTheme();
 
 export default function Authentication() {
-
-    
-
     const [username, setUsername] = React.useState();
     const [password, setPassword] = React.useState();
     const [name, setName] = React.useState();
